@@ -1,0 +1,49 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                    credentialsId: 'XXXX',
+                    url: 'xxxxx'
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                echo 'Installing npm packages...'
+                bat 'npm install'
+            }
+        }
+        stage('Install Playwright Latest') {
+            steps {
+                echo 'Installing Playwright latest version...'
+                bat 'npm install -D @playwright/test@latest'
+                bat 'npx playwright install'
+            }
+        }
+        stage('Install Playwright Latest') {
+            steps {
+                echo 'Installing Playwright latest version...'
+                bat 'npm install -D @playwright/test@latest'
+                bat 'npx playwright install'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                echo 'Executing Playwright + Cucumber tests...'
+
+                bat 'npm run test-OrangeHRM'
+            }
+        }
+
+        // stage('Archive Results') {
+        //     steps {
+        //         junit '**/reports/*.xml'   // if you generate JUnit XML reports
+        //         archiveArtifacts artifacts: '**/reports/**', fingerprint: true
+        //     }
+        //}
+    }
+}

@@ -1,0 +1,444 @@
+[
+  {
+    "description": "  As a user of OrangeHRM\n  I want to log in with valid credentials\n  So that I can access the application securely",
+    "elements": [
+      {
+        "description": "",
+        "id": "orangehrm-login-functionality;successful-login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1779962700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open the OrangeHRM login page",
+            "match": {
+              "location": "step-definition\\login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20200711200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter username \"Admin\" and password \"admin123\"",
+            "match": {
+              "location": "step-definition\\login.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59341899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "step-definition\\login.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161924699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "step-definition\\login.steps.ts:37"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 60016351200,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\ProjectPractice\\node_modules\\@cucumber\\cucumber\\lib\\time.js:64:20)\n    at listOnTimeout (node:internal/timers:635:17)\n    at process.processTimers (node:internal/timers:571:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I should see the welcome message",
+            "match": {
+              "location": "step-definition\\login.steps.ts:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 30020002399,
+              "error_message": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at CustomWorld.<anonymous> (C:\\ProjectPractice\\support\\hooks.ts:17:33)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Validlogin",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "orangehrm-login-functionality;login-attempt-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Login attempt with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1520112899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I open the OrangeHRM login page",
+            "match": {
+              "location": "step-definition\\login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28576912300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I enter username \"Admin\" and password \"wrongpass\"",
+            "match": {
+              "location": "step-definition\\login.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71765700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "step-definition\\login.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4277001700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I should see an error message \"Invalid credentials\"",
+            "match": {
+              "location": "step-definition\\login.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 946266499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 442860899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidLogin",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "orangehrm-login-functionality;login-attempt-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Login attempt with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 930025599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I open the OrangeHRM login page",
+            "match": {
+              "location": "step-definition\\login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26232716300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I enter username \"WrongUsr\" and password \"admin123\"",
+            "match": {
+              "location": "step-definition\\login.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47086400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "step-definition\\login.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5765441699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I should see an error message \"Invalid credentials\"",
+            "match": {
+              "location": "step-definition\\login.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 511484999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 425395699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidLogin",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "orangehrm-login-functionality;login-attempt-with-empty-username-and-password",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Login attempt with empty username and password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1226223200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "I open the OrangeHRM login page",
+            "match": {
+              "location": "step-definition\\login.steps.ts:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30010980899,
+              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.goto (C:\\ProjectPractice\\Pages\\Orangepage.ts:16:21)\n    at CustomWorld.<anonymous> (C:\\ProjectPractice\\step-definition\\login.steps.ts:9:34)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I leave username and password fields empty",
+            "match": {
+              "location": "step-definition\\login.steps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "step-definition\\login.steps.ts:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I should see validation messages for required fields",
+            "match": {
+              "location": "step-definition\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 554840700
+            },
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAIAAABAXKuVAAAQAElEQVR4nOzYsREAEAAAMefsvy2Nxh4+GSPr7DsAAACA380BAAAABCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASPStT/wAAAnxJREFUFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQ8AAP//8SZyQQAAAAZJREFUAwDaWgjpj69JIQAAAABJRU5ErkJggg==",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EmptyFields",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "orangehrm-login-functionality;successful-logout",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Successful logout",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1126706900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "I am logged in with valid credentials",
+            "match": {
+              "location": "step-definition\\login.steps.ts:12"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 55634117699,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/dashboard\\/index/\u001b[39m\nReceived string:  \u001b[31m\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"\u001b[39m\nTimeout: 30000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 30000ms\u001b[22m\n\u001b[2m    - waiting for navigation to finish...\u001b[22m\n\n    at captureRawStack (C:\\ProjectPractice\\node_modules\\playwright-core\\lib\\coreBundle.js:9282:17)\n    at callMatcherAsStep (C:\\ProjectPractice\\node_modules\\playwright\\lib\\matchers\\expect.js:13316:57)\n    at Object.toHaveURL (C:\\ProjectPractice\\node_modules\\playwright\\lib\\matchers\\expect.js:13308:23)\n    at LoginPage.expectDashboard (C:\\ProjectPractice\\Pages\\Orangepage.ts:30:27)\n    at CustomWorld.<anonymous> (C:\\ProjectPractice\\step-definition\\login.steps.ts:17:15)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I click on the Logout option",
+            "match": {
+              "location": "step-definition\\login.steps.ts:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should be redirected back to the login page",
+            "match": {
+              "location": "step-definition\\login.steps.ts:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 30025969600,
+              "error_message": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at CustomWorld.<anonymous> (C:\\ProjectPractice\\support\\hooks.ts:17:33)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Logout",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "orangehrm-login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "OrangeHRM Login Functionality",
+    "tags": [],
+    "uri": "features\\OrangeHRM.feature"
+  }
+]
