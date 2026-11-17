@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1779962700
+              "duration": 1294819199
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20200711200
+              "duration": 4490081299
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 59341899
+              "duration": 37637300
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 161924699
+              "duration": 1132452999
             }
           },
           {
@@ -65,9 +65,8 @@
               "location": "step-definition\\login.steps.ts:37"
             },
             "result": {
-              "status": "failed",
-              "duration": 60016351200,
-              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (C:\\ProjectPractice\\node_modules\\@cucumber\\cucumber\\lib\\time.js:64:20)\n    at listOnTimeout (node:internal/timers:635:17)\n    at process.processTimers (node:internal/timers:571:7)"
+              "status": "passed",
+              "duration": 485536300
             }
           },
           {
@@ -79,17 +78,16 @@
               "location": "step-definition\\login.steps.ts:41"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5334399
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 30020002399,
-              "error_message": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at CustomWorld.<anonymous> (C:\\ProjectPractice\\support\\hooks.ts:17:33)"
+              "status": "passed",
+              "duration": 469536399
             }
           }
         ],
@@ -113,7 +111,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1520112899
+              "duration": 1122693699
             }
           },
           {
@@ -126,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28576912300
+              "duration": 5663818699
             }
           },
           {
@@ -139,7 +137,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 71765700
+              "duration": 33453700
             }
           },
           {
@@ -152,7 +150,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4277001700
+              "duration": 1046632400
             }
           },
           {
@@ -165,7 +163,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 946266499
+              "duration": 448545400
             }
           },
           {
@@ -173,7 +171,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 442860899
+              "duration": 285321299
             }
           }
         ],
@@ -197,7 +195,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 930025599
+              "duration": 889036500
             }
           },
           {
@@ -210,7 +208,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26232716300
+              "duration": 15753348900
             }
           },
           {
@@ -223,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47086400
+              "duration": 39176400
             }
           },
           {
@@ -236,7 +234,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5765441699
+              "duration": 47614900
             }
           },
           {
@@ -249,7 +247,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 511484999
+              "duration": 2151996500
             }
           },
           {
@@ -257,7 +255,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 425395699
+              "duration": 312255000
             }
           }
         ],
@@ -281,7 +279,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1226223200
+              "duration": 784879399
             }
           },
           {
@@ -293,9 +291,8 @@
               "location": "step-definition\\login.steps.ts:8"
             },
             "result": {
-              "status": "failed",
-              "duration": 30010980899,
-              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.goto (C:\\ProjectPractice\\Pages\\Orangepage.ts:16:21)\n    at CustomWorld.<anonymous> (C:\\ProjectPractice\\step-definition\\login.steps.ts:9:34)"
+              "status": "passed",
+              "duration": 3295878499
             }
           },
           {
@@ -307,8 +304,8 @@
               "location": "step-definition\\login.steps.ts:25"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 27470500
             }
           },
           {
@@ -320,8 +317,8 @@
               "location": "step-definition\\login.steps.ts:29"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 84152699
             }
           },
           {
@@ -333,8 +330,8 @@
               "location": "step-definition\\login.steps.ts:49"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 9603300
             }
           },
           {
@@ -342,14 +339,8 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 554840700
-            },
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAIAAABAXKuVAAAQAElEQVR4nOzYsREAEAAAMefsvy2Nxh4+GSPr7DsAAACA380BAAAABCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASPStT/wAAAnxJREFUFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQoAAAAAEhQAAAAAJCgAAAAASFAAAAAAkKAAAAAAIEEBAAAAQIICAAAAgAQFAAAAAAkKAAAAABIUAAAAACQoAAAAAEhQAAAAAJCgAAAAACBBAQAAAECCAgAAAIAEBQAAAAAJCgAAAAASFAAAAAAkKAAAAABIUAAAAACQoAAAAAAgQQEAAABAggIAAACABAUAAAAACQ8AAP//8SZyQQAAAAZJREFUAwDaWgjpj69JIQAAAABJRU5ErkJggg==",
-                "mime_type": "image/png"
-              }
-            ]
+              "duration": 295237499
+            }
           }
         ],
         "tags": [
@@ -372,7 +363,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1126706900
+              "duration": 679195999
             }
           },
           {
@@ -384,9 +375,8 @@
               "location": "step-definition\\login.steps.ts:12"
             },
             "result": {
-              "status": "failed",
-              "duration": 55634117699,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/dashboard\\/index/\u001b[39m\nReceived string:  \u001b[31m\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"\u001b[39m\nTimeout: 30000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 30000ms\u001b[22m\n\u001b[2m    - waiting for navigation to finish...\u001b[22m\n\n    at captureRawStack (C:\\ProjectPractice\\node_modules\\playwright-core\\lib\\coreBundle.js:9282:17)\n    at callMatcherAsStep (C:\\ProjectPractice\\node_modules\\playwright\\lib\\matchers\\expect.js:13316:57)\n    at Object.toHaveURL (C:\\ProjectPractice\\node_modules\\playwright\\lib\\matchers\\expect.js:13308:23)\n    at LoginPage.expectDashboard (C:\\ProjectPractice\\Pages\\Orangepage.ts:30:27)\n    at CustomWorld.<anonymous> (C:\\ProjectPractice\\step-definition\\login.steps.ts:17:15)"
+              "status": "passed",
+              "duration": 7948516000
             }
           },
           {
@@ -398,8 +388,8 @@
               "location": "step-definition\\login.steps.ts:33"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1208073900
             }
           },
           {
@@ -411,17 +401,16 @@
               "location": "step-definition\\login.steps.ts:53"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 372879099
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 30025969600,
-              "error_message": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at CustomWorld.<anonymous> (C:\\ProjectPractice\\support\\hooks.ts:17:33)"
+              "status": "passed",
+              "duration": 313523800
             }
           }
         ],
