@@ -5,8 +5,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    credentialsId: 'XXXX',
-                    url: 'xxxxx'
+                    credentialsId: 'Grirajcraz',
+                    url: 'https://github.com/Grirajcraz/OrangeHRM_file.git'
             }
         }
 
@@ -16,13 +16,13 @@ pipeline {
                 bat 'npm install'
             }
         }
-        stage('Install Playwright Latest') {
-            steps {
-                echo 'Installing Playwright latest version...'
-                bat 'npm install -D @playwright/test@latest'
-                bat 'npx playwright install'
-            }
-        }
+        // stage('Install Playwright Latest') {
+        //     steps {
+        //         echo 'Installing Playwright latest version...'
+        //         bat 'npm install -D @playwright/test@latest'
+        //         bat 'npx playwright install'
+        //     }
+        // }
         stage('Install Playwright Latest') {
             steps {
                 echo 'Installing Playwright latest version...'
@@ -35,7 +35,7 @@ pipeline {
             steps {
                 echo 'Executing Playwright + Cucumber tests...'
 
-                bat 'npm run test-OrangeHRM'
+                bat 'npm run test-validlogin'
             }
         }
 
